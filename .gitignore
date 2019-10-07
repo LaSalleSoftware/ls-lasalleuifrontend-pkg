@@ -1,0 +1,5 @@
+# A gitignore file specifies intentionally untracked files that Git should ignore
+# https://git-scm.com/docs/gitignore
+
+.DS_Store
+/.idea
