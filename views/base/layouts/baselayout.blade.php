@@ -1,33 +1,17 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" xmlns:font-family="http://www.w3.org/1999/xhtml">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" xmlns:font-family="http://www.w3.org/1999/xhtml" class="bg-white antialiased">
 
-@include('head.main')
+@include('lasallesoftwarelasalleui::base.head.main')
 
-<body class="bg-gray-200 font-sans leading-normal tracking-normal gradient"  style="font-family: 'Poiret One', sans-serif;">
+<body class="text-black" style="font-family: 'Poiret One', sans-serif;">
 
-<div class="container
-        @include('header.main')
-    </div>
+@include('lasallesoftwarelasalleui::base.header.main')
 
-    <!--Container-->
-    <div class="container px-4 md:px-0 max-w-6xl mx-auto -mt-32">
+<main>
+    @yield('content')
+</main>
 
-<div class="mx-0 sm:mx-6">
-
-
-
-
-
-    <div class="container">
-        @yield('content')
-    </div>
-
-
-
-</div>
-
-</div>
-@include('footer.main')
+@include('lasallesoftwarelasalleui::base.footer.main')
 
 </body>
 

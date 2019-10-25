@@ -49,7 +49,7 @@
 
     <div class=" flex justify-between items-center">
         <div class="flex items-center flex-shrink-0 text-white mr-6">
-            <img class="fill-current h-16 w-16 mr-2" src="visage-logo_150x150.png" width="54" height="54" viewBox="0 0 54 54" />
+            <img class="fill-current h-16 w-16 mr-2" src="logos/visage-logo_150x150.png" width="54" height="54" viewBox="0 0 54 54" />
             <span class="font-bold text-4xl tracking-tight">LaSalle Software</span>
         </div>
     </div>
@@ -106,7 +106,7 @@
             <section class="font-bold text-xl p-12">
                 <!-- image -->
                 <div class="w-full max-w-6xl mx-auto bg-white bg-cover mt-8 rounded"
-                     style="background-image:url('https://source.unsplash.com/collection/1118905/');
+                     style="background-image:url('buffalo-bills.jpg');
                      height: 75vh;">
                 </div>
 
