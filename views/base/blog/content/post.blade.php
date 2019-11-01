@@ -7,16 +7,19 @@
 
 
             <!-- title -->
-            <h1 class="lg:text-center font-bold break-normal text-3xl md:text-5xl">{{ $title }}</h1>
+            <h1 class="lg:text-center font-bold break-normal text-3xl md:text-5xl">{!! $title !!}</h1>
 
             <!-- date -->
-            <div class="lg:text-center text-gray-600">{{ $publish_on }}</div>
+            <div class="lg:text-center text-gray-700">
+                <time datetime="{{ $datetime }}">{{ $publish_on }}</time>
+            </div>
 
             <!-- author -->
-            <div class="lg:text-center text-gray-600">by {{ $author }}</div>
+            <div class="lg:text-center text-gray-700">by {!! $author !!}</div>
 
             <!-- category -->
-            <h3 class="lg:text-center text-gray-600">category: {!! $category !!}</h3>
+            <h3 class="lg:text-center text-gray-700">category: {!! $category !!}
+            </h3>
 
             @include('lasallesoftwarelasalleui::base.blog.content.tags')
 

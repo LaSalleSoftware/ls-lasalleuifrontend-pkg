@@ -21,7 +21,7 @@
                 </svg>
             </a>
         </li>
-        <li><a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:text-purple-300" href="#">Documentation</a></li>
+        <li><a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:text-purple-300" href="/blog/feed">RSS Feed</a></li>
         <li><a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:text-purple-300 " href="#">Support</a></li>
     </ul>
 </nav>

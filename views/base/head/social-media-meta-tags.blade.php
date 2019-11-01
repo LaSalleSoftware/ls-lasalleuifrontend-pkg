@@ -12,5 +12,5 @@
     <meta property="og:type" content="{!! $socialMediaMetaTags['og_type'] !!}" />
     <meta property="og:title" content="{!! $socialMediaMetaTags['title'] !!}" />
     <meta property="og:description" content="{!! $socialMediaMetaTags['description'] !!}" />
-    <meta property="og:image" content="{!! $socialMediaMetaTags['image'] !!}" />
+    <meta property="og:image" content="{!! $featured_image_social_media_meta_tag !!}" />
 @endif

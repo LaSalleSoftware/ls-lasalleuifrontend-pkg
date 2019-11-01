@@ -5,11 +5,8 @@
         <article>
             <section class="font-bold text-xl p-12">
 
-                <!-- image -->
-                <div class="w-full max-w-6xl mx-auto bg-white bg-cover mt-8 rounded"
-                     style="background-image:url('buffalo-bills.jpg');
-                     height: 75vh;">
-                </div>
+                <!-- featured image -->
+                @include('lasallesoftwarelasalleui::base.blog.content.featured_image')
 
                 <!-- title -->
                 <h1 class="lg:text-center font-bold break-normal text-3xl md:text-5xl">There was an error!</h1>

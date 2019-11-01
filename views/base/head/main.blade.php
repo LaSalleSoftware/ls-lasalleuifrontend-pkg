@@ -8,11 +8,6 @@
 
 
 
-
-
-
-
-
     @include('lasallesoftwarelasalleui::base.head.title')
 
     <!-- Fonts -->

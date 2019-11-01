@@ -15,7 +15,7 @@
 <div class="hidden lg:flex lg:items-center lg:w-auto w-full" id="menu">
     <nav>
         <ul class="lg:flex items-center justify-between text-white text-xl pt-4 lg:pt-0 font-semibold">
-            <li><a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:text-purple-300" href="#">Features</a></li>
+            <li><a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:text-purple-300" href="/blog/all?page=1">Blog</a></li>
             <li><a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:text-purple-300" href="#">Pricing</a></li>
             <li><a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:text-purple-300" href="#">Documentation</a></li>
             <li><a class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:text-purple-300 " href="#">Support</a></li>
