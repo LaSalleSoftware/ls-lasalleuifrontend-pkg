@@ -100,6 +100,19 @@
     {{-- END: Display blog posts --}}
 
 
+
+    {{-- START: Contact Form --}}
+
+    @include('lasallesoftwarecontactform::partials.contactform')
+
+
+    {{-- END: Contact Form --}}
+
+
+
+
+
+
     
 
 @endsection
