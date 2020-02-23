@@ -1,1 +1,1 @@
-<div>{!! $copyright !!}</div>
+<div>{!! $copyright ?? '' !!}</div>
