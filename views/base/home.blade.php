@@ -103,7 +103,7 @@
 
     {{-- START: Contact Form --}}
 
-    @include('lasallesoftwarecontactform::partials.contactform')
+    @include('lasallesoftwarecontactformfrontend::form.partials.contactform')
 
 
     {{-- END: Contact Form --}}
