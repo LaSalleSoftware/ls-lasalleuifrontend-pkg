@@ -103,14 +103,19 @@
 
     {{-- START: Contact Form --}}
 
-    @include('lasallesoftwarecontactformfrontend::form.partials.contactform')
+
+    <div class="container m-auto">
+        <div class="flex flex-wrap -mx-2 mb-8">
+
+            <div class="w-full ">
+            @include('lasallesoftwarecontactformfrontend::form.partials.contactform')
+            </div>
+            
+        </div>
+    </div>
 
 
     {{-- END: Contact Form --}}
-
-
-
-
 
 
     
