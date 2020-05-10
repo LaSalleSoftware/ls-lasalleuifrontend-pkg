@@ -7,7 +7,7 @@
 
                 <!-- image -->
                 <div class="w-full max-w-6xl mx-auto bg-white bg-cover mt-8 rounded"
-                    style="background-image:url('buffalo-bills.jpg');
+                    style="background-image:url('nature1.jpg');
                     height: 75vh;">
                 </div>
 
