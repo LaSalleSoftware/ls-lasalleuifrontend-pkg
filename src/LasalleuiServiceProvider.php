@@ -15,8 +15,8 @@
  * @author     Bob Bloom
  * @email      bob.bloom@lasallesoftware.ca
  * @link       https://lasallesoftware.ca
- * @link       https://packagist.org/packages/lasallesoftware/lsv2-lasalleui-pkg
- * @link       https://github.com/LaSalleSoftware/lsv2-lasalleui-pkg
+ * @link       https://packagist.org/packages/lasallesoftware/ls-lasalleui-pkg
+ * @link       https://github.com/LaSalleSoftware/ls-lasalleui-pkg
  *
  */
 
