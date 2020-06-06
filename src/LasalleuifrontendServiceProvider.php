@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file is part of the Lasalle Software UI package
+ * This file is part of the Lasalle Software UI Front-end package
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -15,12 +15,12 @@
  * @author     Bob Bloom
  * @email      bob.bloom@lasallesoftware.ca
  * @link       https://lasallesoftware.ca
- * @link       https://packagist.org/packages/lasallesoftware/ls-lasalleui-pkg
- * @link       https://github.com/LaSalleSoftware/ls-lasalleui-pkg
+ * @link       https://packagist.org/packages/lasallesoftware/ls-lasalleuifrontend-pkg
+ * @link       https://github.com/LaSalleSoftware/ls-lasalleuifrontend-pkg
  *
  */
 
-namespace Lasallesoftware\Lasalleui;
+namespace Lasallesoftware\Lasalleuifrontend;
 
 // Laravel class
 use Illuminate\Support\ServiceProvider;
@@ -30,7 +30,7 @@ use Illuminate\Support\ServiceProvider;
  *
  * @package Lasallesoftware\Lasalleui
  */
-class LasalleuiServiceProvider extends ServiceProvider
+class LasalleuifrontendServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap any package services.
@@ -45,7 +45,6 @@ class LasalleuiServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->loadViews();
-        //$this->publishViews();
     }
 
     /**
@@ -55,6 +54,6 @@ class LasalleuiServiceProvider extends ServiceProvider
      */
     protected function loadViews()
     {
-        $this->loadViewsFrom(__DIR__.'/../views', 'lasallesoftwarelasalleui');
+        $this->loadViewsFrom(__DIR__.'/../views', 'lasallesoftwarelasalleuifrontend');
     }
 }

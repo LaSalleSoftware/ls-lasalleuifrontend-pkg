@@ -1,6 +1,10 @@
 # CHANGE LOG
 
-## VERSION 2.1.2 (coming!)
+## VERSION 2.2.1 (coming!)
+
+## VERSION 2.2.0 (June 08, 2020)
+Note: This package is renamed "ls-lasalleuifrontend-pkg"
+* [v2.2.0 issues](https://github.com/LaSalleSoftware/ls-lasalleuifrontend-pkg/milestone/7?closed=1)
 
 ## VERSION 2.1.1 (May 30, 2020)
 * [v2.1.1 issues](https://github.com/LaSalleSoftware/ls-lasalleui-pkg/milestone/6?closed=1)

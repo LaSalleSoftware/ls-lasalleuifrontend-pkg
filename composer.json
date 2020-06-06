@@ -1,6 +1,6 @@
 {
-    "name": "lasallesoftware/ls-lasalleui-pkg",
-    "description": "LaSalle Software UI Package.",
+    "name": "lasallesoftware/ls-lasalleuifrontend-pkg",
+    "description": "LaSalle Software UI Front-endPackage.",
     "keywords": [
         "lasalle software",
         "south lasalle",
@@ -23,13 +23,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Lasallesoftware\\Lasalleui\\": "src/"
+            "Lasallesoftware\\Lasalleuifrontend\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Lasallesoftware\\Lasalleui\\LasalleuiServiceProvider"
+                "Lasallesoftware\\Lasalleuifrontend\\LasalleuifrontendServiceProvider"
             ]
         }
     },
