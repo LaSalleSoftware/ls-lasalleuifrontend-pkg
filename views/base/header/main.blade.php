@@ -7,6 +7,6 @@
         </div>
     </div>
 
-    @include('lasallesoftwarelasalleui::base.nav.headernav')
+    @include('lasallesoftwarelasalleuifrontend::base.nav.headernav')
 
 </header>

@@ -1,4 +1,4 @@
-@extends('lasallesoftwarelasalleui::base.layouts.baselayout')
+@extends('lasallesoftwarelasalleuifrontend::base.layouts.baselayout')
 
 @section('content')
 

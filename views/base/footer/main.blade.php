@@ -3,7 +3,7 @@
     <div class="flex items-center lg:justify-between flex-wrap-6 text-white">
         <div></div>
 
-        @include('lasallesoftwarelasalleui::base.nav.footernav')
+        @include('lasallesoftwarelasalleuifrontend::base.nav.footernav')
 
         <div></div>
     </div>
@@ -11,7 +11,7 @@
     <div class="flex items-center lg:justify-between flex-wrap-6 text-white">
         <div></div>
 
-        @include('lasallesoftwarelasalleui::base.footer.copyright')
+        @include('lasallesoftwarelasalleuifrontend::base.footer.copyright')
 
         <div></div>
     </div>

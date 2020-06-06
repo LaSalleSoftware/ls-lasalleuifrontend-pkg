@@ -3,7 +3,7 @@
         <section class="font-bold text-xl pt-12 pl-12 pr-12">
 
             <!-- featured image -->
-            @include('lasallesoftwarelasalleui::base.blog.content.featured_image')
+            @include('lasallesoftwarelasalleuifrontend::base.blog.content.featured_image')
 
 
             <!-- title -->
@@ -21,7 +21,7 @@
             <h3 class="lg:text-center text-gray-700">category: {!! $category !!}
             </h3>
 
-            @include('lasallesoftwarelasalleui::base.blog.content.tags')
+            @include('lasallesoftwarelasalleuifrontend::base.blog.content.tags')
 
             <!-- content -->
             <div class="m-6">
@@ -30,7 +30,7 @@
 
         </section>
 
-        @include('lasallesoftwarelasalleui::base.blog.content.postupdates')
+        @include('lasallesoftwarelasalleuifrontend::base.blog.content.postupdates')
 
         <section></section>
         <section></section>

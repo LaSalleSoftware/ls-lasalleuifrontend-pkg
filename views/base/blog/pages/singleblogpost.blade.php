@@ -1,5 +1,5 @@
-@extends('lasallesoftwarelasalleui::base.layouts.baselayout')
+@extends('lasallesoftwarelasalleuifrontend::base.layouts.baselayout')
 
 @section('content')
-    @include('lasallesoftwarelasalleui::base.blog.content.post')
+    @include('lasallesoftwarelasalleuifrontend::base.blog.content.post')
 @endsection

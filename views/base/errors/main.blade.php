@@ -1,4 +1,4 @@
-@extends('lasallesoftwarelasalleui::base.layouts.baselayout')
+@extends('lasallesoftwarelasalleuifrontend::base.layouts.baselayout')
 
 @section('content')
     <div>
@@ -6,7 +6,7 @@
             <section class="font-bold text-xl p-12">
 
                 <!-- featured image -->
-                @include('lasallesoftwarelasalleui::base.blog.content.featured_image')
+                @include('lasallesoftwarelasalleuifrontend::base.blog.content.featured_image')
 
                 <!-- title -->
                 <h1 class="lg:text-center font-bold break-normal text-3xl md:text-5xl">There was an error!</h1>
