@@ -26,9 +26,9 @@ namespace Lasallesoftware\Lasalleuifrontend;
 use Illuminate\Support\ServiceProvider;
 
 /**
- * Class LasalleuiServiceProvider
+ * Class LasalleuifrontendServiceProvider
  *
- * @package Lasallesoftware\Lasalleui
+ * @package Lasallesoftware\Lasalleuifrontend
  */
 class LasalleuifrontendServiceProvider extends ServiceProvider
 {
