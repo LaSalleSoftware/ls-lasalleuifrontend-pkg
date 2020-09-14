@@ -5,10 +5,8 @@
     @include('lasallesoftwarelasalleuifrontend::base.head.safari-pinned-tab')
     @include('lasallesoftwarelasalleuifrontend::base.head.theme-colour')
     @include('lasallesoftwarelasalleuifrontend::base.head.social-media-meta-tags')
-
-
-
     @include('lasallesoftwarelasalleuifrontend::base.head.title')
+    @include('lasallesoftwarelasalleuifrontend::base.head.meta-tags')
 
     <!-- Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Poiret One:400,100,200,300,600,500,700,800,900' rel='stylesheet' type='text/css'>
