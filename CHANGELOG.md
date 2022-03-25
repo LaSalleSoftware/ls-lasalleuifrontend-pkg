@@ -2,6 +2,9 @@
 
 ## VERSION 2.2.4 (coming!)
 
+## VERSION 2.3.0 (March 25, 2022)
+* [v2.3.0 issues](https://github.com/LaSalleSoftware/ls-lasalleuifrontend-pkg/milestone/11?closed=1)
+
 ## VERSION 2.2.3 (January 20, 2022)
 * [v2.2.3 issues](https://github.com/LaSalleSoftware/ls-lasalleuifrontend-pkg/milestone/10?closed=1)
 
